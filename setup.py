@@ -23,6 +23,12 @@ setup(
     ],
     install_requires=[
         'requests>=2.10.0',
+        'django-json-field==0.5.8',
     ],
-    zip_safe=False
+    zip_safe=False,
+    dependency_links=[
+        'https://github.com/matllubos/django-json-field/tarball/0.5.8#egg=django-json-field-0.5.8',
+        'https://github.com/asgeirrr/django-security/tarball/FixPython3RelatedSudsBugs'
+        '#egg=django-security-FixPython3RelatedSudsBugs',
+    ]
 )
