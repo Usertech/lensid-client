@@ -1,0 +1,22 @@
+# Compiled source #
+###################
+*.pyc
+.cache/
+
+# IDE files #
+#############
+.project
+.pydevproject
+.settings
+*.swp
+.idea/
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+thumbs.db
+Thumbs.db
