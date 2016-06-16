@@ -3,6 +3,8 @@ Lens ID client
 
 A client library for Lens ID API.
 
+[![Build Status](https://travis-ci.org/Usertech/lensid-client.svg?branch=master)](https://travis-ci.org/Usertech/lensid-client)
+
 Prerequisites
 -------------
 
