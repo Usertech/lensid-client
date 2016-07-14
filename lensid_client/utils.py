@@ -8,7 +8,7 @@ def get_file_as_base64(file_path:str) -> str:
     Returns a file content as base64.
     """
     with open(file_path, 'rb') as output:
-        return str(base64.b64encode(output.read()))
+        return base64.b64encode(output.read()).decode('utf-8')
 
 
 def build_snapshot(file_name:str, file_path:str, content_type:str) -> Mapping[str, str]:
