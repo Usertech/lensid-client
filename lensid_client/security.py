@@ -7,7 +7,7 @@ from typing import Mapping, Optional, Tuple
 
 
 def _post(url, **kwargs):
-    return security.post(url, slug='spitzel', **kwargs)
+    return security.post(url, slug='LensID', **kwargs)
 
 
 def login(domain: str, username: str, password: str) -> Tuple[Optional[str], r.Response]:
